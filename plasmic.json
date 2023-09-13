@@ -7,7 +7,7 @@
   },
   "style": {
     "scheme": "css-modules",
-    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
   },
   "images": {
     "scheme": "files",
@@ -39,7 +39,8 @@
           "displayName": "hostless-plasmic-navigation-bar",
           "componentImportPath": "@plasmicpkgs/plasmic-nav"
         }
-      ]
+      ],
+      "jsBundleThemes": []
     },
     {
       "projectId": "aidk5hCMmGyuB8c7wzcfxE",
@@ -124,6 +125,19 @@
             "modulePath": "SideToggle.tsx"
           },
           "cssFilePath": "plasmic/statelink_demo_v_2/PlasmicSideToggle.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "NXv4kV2mUbsL",
+          "name": "CollapsibleSection",
+          "type": "managed",
+          "projectId": "aidk5hCMmGyuB8c7wzcfxE",
+          "renderModuleFilePath": "plasmic/statelink_demo_v_2/PlasmicCollapsibleSection.tsx",
+          "importSpec": {
+            "modulePath": "CollapsibleSection.tsx"
+          },
+          "cssFilePath": "plasmic/statelink_demo_v_2/PlasmicCollapsibleSection.module.css",
           "scheme": "blackbox",
           "componentType": "component"
         }
@@ -405,6 +419,21 @@
           "id": "C-ui3MEI-JQs",
           "name": "Group 3",
           "filePath": "plasmic/statelink_demo_v_2/images/group3.svg"
+        },
+        {
+          "id": "a6v1Ew-TSuo4",
+          "name": "image 38",
+          "filePath": "plasmic/statelink_demo_v_2/images/image38.svg"
+        },
+        {
+          "id": "oXQVJfePgv2v",
+          "name": "image 39",
+          "filePath": "plasmic/statelink_demo_v_2/images/image39.svg"
+        },
+        {
+          "id": "CGC_XDdy47hR",
+          "name": "image 40",
+          "filePath": "plasmic/statelink_demo_v_2/images/image40.svg"
         }
       ],
       "indirect": false,
@@ -421,6 +450,26 @@
           "name": "Fetcher",
           "displayName": "plasmic-data-source-fetcher",
           "componentImportPath": "@plasmicapp/react-web/lib/data-sources"
+        }
+      ]
+    },
+    {
+      "projectId": "58GpZjZCWTaJ8AUhpCwt2K",
+      "projectApiToken": "DIkcfhBwjMCJSjcxfBkMuy4NImyytq5EWylxVcpS9t9EpdhnPQuBgBGxmk00AB1itMFa1KXTxOKnrjN2PN9nlA",
+      "projectName": "react-awesome-reveal",
+      "version": "3.19.0",
+      "cssFilePath": "plasmic/react_awesome_reveal/plasmic_react_awesome_reveal.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "",
+      "codeComponents": [
+        {
+          "id": "R6s1FdhksG",
+          "name": "Reveal",
+          "displayName": "hostless-reveal",
+          "componentImportPath": "@plasmicpkgs/react-awesome-reveal"
         }
       ]
     }
