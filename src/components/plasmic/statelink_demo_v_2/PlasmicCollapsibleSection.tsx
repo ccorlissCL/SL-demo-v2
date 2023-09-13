@@ -38,6 +38,9 @@ import "@plasmicapp/react-web/lib/plasmic.css";
 import projectcss from "./plasmic_statelink_demo_v_2.module.css"; // plasmic-import: aidk5hCMmGyuB8c7wzcfxE/projectcss
 import sty from "./PlasmicCollapsibleSection.module.css"; // plasmic-import: NXv4kV2mUbsL/css
 
+import Icon4Icon from "./icons/PlasmicIcon__Icon4"; // plasmic-import: 2MItRI-fdOoV/icon
+import Icon6Icon from "./icons/PlasmicIcon__Icon6"; // plasmic-import: Fham5QgAI4o1/icon
+import Icon13Icon from "./icons/PlasmicIcon__Icon13"; // plasmic-import: 60b9r9W0uTEc/icon
 import image25A9WgndXoFv7 from "./images/image25.svg"; // plasmic-import: A_9WGNDXoFV7/picture
 import image40CgcXDdy47HR from "./images/image40.svg"; // plasmic-import: CGC_XDdy47hR/picture
 import image27KMefufbWiNeR from "./images/image27.svg"; // plasmic-import: kMEFUFBWiNeR/picture
@@ -60,11 +63,8 @@ export const PlasmicCollapsibleSection__ArgProps = new Array<ArgPropType>();
 
 export type PlasmicCollapsibleSection__OverridesType = {
   section?: p.Flex<"div">;
-  curriculumPlanningHeader3?: p.Flex<"div">;
-  frame2963?: p.Flex<"div">;
-  group2999?: p.Flex<"div">;
-  caretDown4?: p.Flex<"div">;
-  filter4?: p.Flex<"div">;
+  curriculumPlanningHeader4?: p.Flex<"div">;
+  frame2965?: p.Flex<"div">;
   freeBox?: p.Flex<"div">;
   curriculumPlanningSection3?: p.Flex<"div">;
   appTile5?: p.Flex<"div">;
@@ -124,62 +124,30 @@ function PlasmicCollapsibleSection__RenderFunc(props: {
       )}
     >
       <div
-        data-plasmic-name={"curriculumPlanningHeader3"}
-        data-plasmic-override={overrides.curriculumPlanningHeader3}
-        className={classNames(projectcss.all, sty.curriculumPlanningHeader3)}
+        data-plasmic-name={"curriculumPlanningHeader4"}
+        data-plasmic-override={overrides.curriculumPlanningHeader4}
+        className={classNames(projectcss.all, sty.curriculumPlanningHeader4)}
       >
         <p.Stack
           as={"div"}
-          data-plasmic-name={"frame2963"}
-          data-plasmic-override={overrides.frame2963}
+          data-plasmic-name={"frame2965"}
+          data-plasmic-override={overrides.frame2965}
           hasGap={true}
-          className={classNames(projectcss.all, sty.frame2963)}
+          className={classNames(projectcss.all, sty.frame2965)}
         >
           <div
             className={classNames(
               projectcss.all,
               projectcss.__wab_text,
-              sty.text__tiWeO
+              sty.text___22OCz
             )}
           >
             {"Curriculum Planning"}
           </div>
-          <div
-            data-plasmic-name={"group2999"}
-            data-plasmic-override={overrides.group2999}
-            className={classNames(projectcss.all, sty.group2999)}
-          >
-            <div
-              data-plasmic-name={"caretDown4"}
-              data-plasmic-override={overrides.caretDown4}
-              className={classNames(projectcss.all, sty.caretDown4)}
-            >
-              <div
-                className={classNames(
-                  projectcss.all,
-                  projectcss.__wab_text,
-                  sty.text__wLxB9
-                )}
-              >
-                {"caret-down"}
-              </div>
-            </div>
-            <div
-              data-plasmic-name={"filter4"}
-              data-plasmic-override={overrides.filter4}
-              className={classNames(projectcss.all, sty.filter4)}
-            >
-              <div
-                className={classNames(
-                  projectcss.all,
-                  projectcss.__wab_text,
-                  sty.text___3VJgN
-                )}
-              >
-                {"filter"}
-              </div>
-            </div>
-          </div>
+          <Icon4Icon
+            className={classNames(projectcss.all, sty.svg___3Kv3L)}
+            role={"img"}
+          />
         </p.Stack>
         <div
           data-plasmic-name={"freeBox"}
@@ -187,15 +155,10 @@ function PlasmicCollapsibleSection__RenderFunc(props: {
           className={classNames(projectcss.all, sty.freeBox)}
         />
 
-        <div
-          className={classNames(
-            projectcss.all,
-            projectcss.__wab_text,
-            sty.text__ttCj
-          )}
-        >
-          {"chevron-down"}
-        </div>
+        <Icon6Icon
+          className={classNames(projectcss.all, sty.svg__zeyBz)}
+          role={"img"}
+        />
       </div>
       <p.Stack
         as={"div"}
@@ -244,15 +207,10 @@ function PlasmicCollapsibleSection__RenderFunc(props: {
               {"Schoolnet"}
             </div>
           </p.Stack>
-          <div
-            className={classNames(
-              projectcss.all,
-              projectcss.__wab_text,
-              sty.text___0Gc4Z
-            )}
-          >
-            {"ellipsis-v"}
-          </div>
+          <Icon13Icon
+            className={classNames(projectcss.all, sty.svg__irI9R)}
+            role={"img"}
+          />
         </div>
         <div
           data-plasmic-name={"appTile29"}
@@ -293,16 +251,11 @@ function PlasmicCollapsibleSection__RenderFunc(props: {
             >
               {"EVAAS"}
             </div>
-            <div
-              className={classNames(
-                projectcss.all,
-                projectcss.__wab_text,
-                sty.text__w2Q0F
-              )}
-            >
-              {"ellipsis-v"}
-            </div>
           </p.Stack>
+          <Icon13Icon
+            className={classNames(projectcss.all, sty.svg__zeAd)}
+            role={"img"}
+          />
         </div>
         <div
           data-plasmic-name={"appTile33"}
@@ -343,16 +296,11 @@ function PlasmicCollapsibleSection__RenderFunc(props: {
             >
               {"Power\nTeacher"}
             </div>
-            <div
-              className={classNames(
-                projectcss.all,
-                projectcss.__wab_text,
-                sty.text__tk0T9
-              )}
-            >
-              {"ellipsis-v"}
-            </div>
           </p.Stack>
+          <Icon13Icon
+            className={classNames(projectcss.all, sty.svg__h8K7F)}
+            role={"img"}
+          />
         </div>
         <div
           data-plasmic-name={"appTile34"}
@@ -393,16 +341,11 @@ function PlasmicCollapsibleSection__RenderFunc(props: {
             >
               {"PowerSchool Student"}
             </div>
-            <div
-              className={classNames(
-                projectcss.all,
-                projectcss.__wab_text,
-                sty.text__aoCKi
-              )}
-            >
-              {"ellipsis-v"}
-            </div>
           </p.Stack>
+          <Icon13Icon
+            className={classNames(projectcss.all, sty.svg__t5Bvc)}
+            role={"img"}
+          />
         </div>
         <div
           data-plasmic-name={"appTile35"}
@@ -444,15 +387,10 @@ function PlasmicCollapsibleSection__RenderFunc(props: {
               {"ECATS    "}
             </div>
           </p.Stack>
-          <div
-            className={classNames(
-              projectcss.all,
-              projectcss.__wab_text,
-              sty.text__eCCeO
-            )}
-          >
-            {"ellipsis-v"}
-          </div>
+          <Icon13Icon
+            className={classNames(projectcss.all, sty.svg__skYOw)}
+            role={"img"}
+          />
         </div>
         <div
           data-plasmic-name={"appTile36"}
@@ -494,15 +432,10 @@ function PlasmicCollapsibleSection__RenderFunc(props: {
               {"Power\nSchool"}
             </div>
           </p.Stack>
-          <div
-            className={classNames(
-              projectcss.all,
-              projectcss.__wab_text,
-              sty.text__a59QJ
-            )}
-          >
-            {"ellipsis-v"}
-          </div>
+          <Icon13Icon
+            className={classNames(projectcss.all, sty.svg__oec7Q)}
+            role={"img"}
+          />
         </div>
         <div
           data-plasmic-name={"appTile37"}
@@ -544,15 +477,10 @@ function PlasmicCollapsibleSection__RenderFunc(props: {
               {"NCEES"}
             </div>
           </p.Stack>
-          <div
-            className={classNames(
-              projectcss.all,
-              projectcss.__wab_text,
-              sty.text__r3DZb
-            )}
-          >
-            {"ellipsis-v"}
-          </div>
+          <Icon13Icon
+            className={classNames(projectcss.all, sty.svg___40N8Q)}
+            role={"img"}
+          />
         </div>
       </p.Stack>
     </div>
@@ -562,11 +490,8 @@ function PlasmicCollapsibleSection__RenderFunc(props: {
 const PlasmicDescendants = {
   section: [
     "section",
-    "curriculumPlanningHeader3",
-    "frame2963",
-    "group2999",
-    "caretDown4",
-    "filter4",
+    "curriculumPlanningHeader4",
+    "frame2965",
     "freeBox",
     "curriculumPlanningSection3",
     "appTile5",
@@ -584,18 +509,12 @@ const PlasmicDescendants = {
     "appTile37",
     "frame3005"
   ],
-  curriculumPlanningHeader3: [
-    "curriculumPlanningHeader3",
-    "frame2963",
-    "group2999",
-    "caretDown4",
-    "filter4",
+  curriculumPlanningHeader4: [
+    "curriculumPlanningHeader4",
+    "frame2965",
     "freeBox"
   ],
-  frame2963: ["frame2963", "group2999", "caretDown4", "filter4"],
-  group2999: ["group2999", "caretDown4", "filter4"],
-  caretDown4: ["caretDown4"],
-  filter4: ["filter4"],
+  frame2965: ["frame2965"],
   freeBox: ["freeBox"],
   curriculumPlanningSection3: [
     "curriculumPlanningSection3",
@@ -634,11 +553,8 @@ type DescendantsType<T extends NodeNameType> =
   typeof PlasmicDescendants[T][number];
 type NodeDefaultElementType = {
   section: "div";
-  curriculumPlanningHeader3: "div";
-  frame2963: "div";
-  group2999: "div";
-  caretDown4: "div";
-  filter4: "div";
+  curriculumPlanningHeader4: "div";
+  frame2965: "div";
   freeBox: "div";
   curriculumPlanningSection3: "div";
   appTile5: "div";
@@ -717,11 +633,8 @@ export const PlasmicCollapsibleSection = Object.assign(
   makeNodeComponent("section"),
   {
     // Helper components rendering sub-elements
-    curriculumPlanningHeader3: makeNodeComponent("curriculumPlanningHeader3"),
-    frame2963: makeNodeComponent("frame2963"),
-    group2999: makeNodeComponent("group2999"),
-    caretDown4: makeNodeComponent("caretDown4"),
-    filter4: makeNodeComponent("filter4"),
+    curriculumPlanningHeader4: makeNodeComponent("curriculumPlanningHeader4"),
+    frame2965: makeNodeComponent("frame2965"),
     freeBox: makeNodeComponent("freeBox"),
     curriculumPlanningSection3: makeNodeComponent("curriculumPlanningSection3"),
     appTile5: makeNodeComponent("appTile5"),

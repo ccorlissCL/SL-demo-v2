@@ -41,15 +41,20 @@ import "@plasmicapp/react-web/lib/plasmic.css";
 import projectcss from "./plasmic_statelink_demo_v_2.module.css"; // plasmic-import: aidk5hCMmGyuB8c7wzcfxE/projectcss
 import sty from "./PlasmicHomepage.module.css"; // plasmic-import: Rs1GL85bqiJV/css
 
+import Icon12Icon from "./icons/PlasmicIcon__Icon12"; // plasmic-import: gTboGcE9Xmps/icon
 import SearchsvgIcon from "./icons/PlasmicIcon__Searchsvg"; // plasmic-import: jw55Nqar_7aR/icon
 import ChecksvgIcon from "./icons/PlasmicIcon__Checksvg"; // plasmic-import: kRxfHv-T7HKP/icon
+import Icon5Icon from "./icons/PlasmicIcon__Icon5"; // plasmic-import: yh2Ju7bwNtnc/icon
+import Icon4Icon from "./icons/PlasmicIcon__Icon4"; // plasmic-import: 2MItRI-fdOoV/icon
+import Icon6Icon from "./icons/PlasmicIcon__Icon6"; // plasmic-import: Fham5QgAI4o1/icon
+import Icon13Icon from "./icons/PlasmicIcon__Icon13"; // plasmic-import: 60b9r9W0uTEc/icon
+import image42SoD5TVyCYpr from "./images/image42.svg"; // plasmic-import: soD5tVy-cYpr/picture
 import image18FHcGthkeQ2Fn from "./images/image18.svg"; // plasmic-import: FHcGthkeQ2FN/picture
 import image20VcUxcF3Aumn from "./images/image20.svg"; // plasmic-import: Vc-UxcF3AUMN/picture
 import image21UnZuVc9Rc3Rc from "./images/image21.svg"; // plasmic-import: UnZuVC9Rc3Rc/picture
 import image22Cvgh0HyIvFdP from "./images/image22.svg"; // plasmic-import: cvgh0HYIvFdP/picture
 import image19RcckWzOimSr0 from "./images/image19.svg"; // plasmic-import: RCCKWzOimSR0/picture
 import image25A9WgndXoFv7 from "./images/image25.svg"; // plasmic-import: A_9WGNDXoFV7/picture
-import image27KMefufbWiNeR from "./images/image27.svg"; // plasmic-import: kMEFUFBWiNeR/picture
 import image29Sn7WGwiZjpRz from "./images/image29.svg"; // plasmic-import: Sn7wGwiZjpRZ/picture
 import image30QvrQx5L41M8V from "./images/image30.svg"; // plasmic-import: QVRQx5l41m8V/picture
 
@@ -69,16 +74,10 @@ export type PlasmicHomepage__OverridesType = {
   sideNav?: p.Flex<typeof Nav>;
   frame2976?: p.Flex<"div">;
   frame2975?: p.Flex<"div">;
-  _?: p.Flex<"div">;
   textInput?: p.Flex<typeof TextInput>;
   frame2974?: p.Flex<"div">;
-  frame2973?: p.Flex<"div">;
-  plusCircle?: p.Flex<"div">;
-  curriculumPlanningHeader?: p.Flex<"div">;
-  frame2961?: p.Flex<"div">;
-  group2997?: p.Flex<"div">;
-  caretDown2?: p.Flex<"div">;
-  filter2?: p.Flex<"div">;
+  curriculumPlanningHeader4?: p.Flex<"div">;
+  frame2965?: p.Flex<"div">;
   curriculumPlanningSection2?: p.Flex<"div">;
   recentlyUsedApps3?: p.Flex<"div">;
   appTile6?: p.Flex<"div">;
@@ -92,11 +91,8 @@ export type PlasmicHomepage__OverridesType = {
   appTile41?: p.Flex<"div">;
   frame3009?: p.Flex<"div">;
   collapsibleSection?: p.Flex<typeof CollapsibleSection>;
-  curriculumPlanningHeader2?: p.Flex<"div">;
-  frame2962?: p.Flex<"div">;
-  group2998?: p.Flex<"div">;
-  caretDown3?: p.Flex<"div">;
-  filter3?: p.Flex<"div">;
+  curriculumPlanningHeader5?: p.Flex<"div">;
+  frame2966?: p.Flex<"div">;
   curriculumPlanningSection?: p.Flex<"div">;
   appTile2?: p.Flex<"div">;
   frame2964?: p.Flex<"div">;
@@ -195,21 +191,11 @@ function PlasmicHomepage__RenderFunc(props: {
                 hasGap={true}
                 className={classNames(projectcss.all, sty.frame2975)}
               >
-                <div
-                  data-plasmic-name={"_"}
-                  data-plasmic-override={overrides._}
-                  className={classNames(projectcss.all, sty._)}
-                >
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text___4Abr6
-                    )}
-                  >
-                    {"\uf002"}
-                  </div>
-                </div>
+                <Icon12Icon
+                  className={classNames(projectcss.all, sty.svg__ayfom)}
+                  role={"img"}
+                />
+
                 <TextInput
                   data-plasmic-name={"textInput"}
                   data-plasmic-override={overrides.textInput}
@@ -230,121 +216,67 @@ function PlasmicHomepage__RenderFunc(props: {
                 data-plasmic-override={overrides.frame2974}
                 className={classNames(projectcss.all, sty.frame2974)}
               >
-                <div
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.text__gVqBv
-                  )}
-                >
-                  {"BELL"}
-                </div>
-                <div
-                  data-plasmic-name={"frame2973"}
-                  data-plasmic-override={overrides.frame2973}
-                  className={classNames(projectcss.all, sty.frame2973)}
-                >
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__h2Xu
-                    )}
-                  >
-                    {"12"}
-                  </div>
-                </div>
+                <p.PlasmicImg
+                  alt={""}
+                  className={classNames(sty.img__hFkaX)}
+                  displayHeight={"auto"}
+                  displayMaxHeight={"none"}
+                  displayMaxWidth={"100%"}
+                  displayMinHeight={"0"}
+                  displayMinWidth={"0"}
+                  displayWidth={"32px"}
+                  loading={"lazy"}
+                  src={{
+                    src: image42SoD5TVyCYpr,
+                    fullWidth: 186,
+                    fullHeight: 150,
+                    aspectRatio: 1.24
+                  }}
+                />
               </div>
-              <div
-                data-plasmic-name={"plusCircle"}
-                data-plasmic-override={overrides.plusCircle}
-                className={classNames(projectcss.all, sty.plusCircle)}
-              >
-                <div
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.text__g4L4
-                  )}
-                >
-                  {"plus"}
-                </div>
-              </div>
-              <div className={classNames(projectcss.all, sty.freeBox__ieHn)} />
+              <Icon5Icon
+                className={classNames(projectcss.all, sty.svg__ccrCi)}
+                role={"img"}
+              />
             </p.Stack>
             <div className={classNames(projectcss.all, sty.freeBox__qsffa)}>
               <div
-                data-plasmic-name={"curriculumPlanningHeader"}
-                data-plasmic-override={overrides.curriculumPlanningHeader}
+                data-plasmic-name={"curriculumPlanningHeader4"}
+                data-plasmic-override={overrides.curriculumPlanningHeader4}
                 className={classNames(
                   projectcss.all,
-                  sty.curriculumPlanningHeader
+                  sty.curriculumPlanningHeader4
                 )}
               >
                 <p.Stack
                   as={"div"}
-                  data-plasmic-name={"frame2961"}
-                  data-plasmic-override={overrides.frame2961}
+                  data-plasmic-name={"frame2965"}
+                  data-plasmic-override={overrides.frame2965}
                   hasGap={true}
-                  className={classNames(projectcss.all, sty.frame2961)}
+                  className={classNames(projectcss.all, sty.frame2965)}
                 >
                   <div
                     className={classNames(
                       projectcss.all,
                       projectcss.__wab_text,
-                      sty.text__jcQtS
+                      sty.text__f1Pyr
                     )}
                   >
                     {"Recently Used"}
                   </div>
-                  <div
-                    data-plasmic-name={"group2997"}
-                    data-plasmic-override={overrides.group2997}
-                    className={classNames(projectcss.all, sty.group2997)}
-                  >
-                    <div
-                      data-plasmic-name={"caretDown2"}
-                      data-plasmic-override={overrides.caretDown2}
-                      className={classNames(projectcss.all, sty.caretDown2)}
-                    >
-                      <div
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.__wab_text,
-                          sty.text__autFw
-                        )}
-                      >
-                        {"caret-down"}
-                      </div>
-                    </div>
-                    <div
-                      data-plasmic-name={"filter2"}
-                      data-plasmic-override={overrides.filter2}
-                      className={classNames(projectcss.all, sty.filter2)}
-                    >
-                      <div
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.__wab_text,
-                          sty.text__tPiUc
-                        )}
-                      >
-                        {"filter"}
-                      </div>
-                    </div>
-                  </div>
+                  <Icon4Icon
+                    className={classNames(projectcss.all, sty.svg__qnKJ)}
+                    role={"img"}
+                  />
                 </p.Stack>
-                <div className={classNames(projectcss.all, sty.freeBox__orH)} />
-
                 <div
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.text__xLeN7
-                  )}
-                >
-                  {"chevron-down"}
-                </div>
+                  className={classNames(projectcss.all, sty.freeBox__wOhXh)}
+                />
+
+                <Icon6Icon
+                  className={classNames(projectcss.all, sty.svg__papF2)}
+                  role={"img"}
+                />
               </div>
               <p.Stack
                 as={"div"}
@@ -403,15 +335,10 @@ function PlasmicHomepage__RenderFunc(props: {
                         {"NC ELI"}
                       </div>
                     </p.Stack>
-                    <div
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.text__o0K6Y
-                      )}
-                    >
-                      {"ellipsis-v"}
-                    </div>
+                    <Icon13Icon
+                      className={classNames(projectcss.all, sty.svg__zGz5A)}
+                      role={"img"}
+                    />
                   </div>
                   <div
                     data-plasmic-name={"appTile38"}
@@ -453,15 +380,10 @@ function PlasmicHomepage__RenderFunc(props: {
                         {"EBSCO"}
                       </div>
                     </p.Stack>
-                    <div
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.text__dIujz
-                      )}
-                    >
-                      {"ellipsis-v"}
-                    </div>
+                    <Icon13Icon
+                      className={classNames(projectcss.all, sty.svg__kzaSe)}
+                      role={"img"}
+                    />
                   </div>
                   <div
                     data-plasmic-name={"appTile39"}
@@ -503,15 +425,10 @@ function PlasmicHomepage__RenderFunc(props: {
                         {"Amplify"}
                       </div>
                     </p.Stack>
-                    <div
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.text__lbll3
-                      )}
-                    >
-                      {"ellipsis-v"}
-                    </div>
+                    <Icon13Icon
+                      className={classNames(projectcss.all, sty.svg__g0OR)}
+                      role={"img"}
+                    />
                   </div>
                   <div
                     data-plasmic-name={"appTile40"}
@@ -553,15 +470,10 @@ function PlasmicHomepage__RenderFunc(props: {
                         {"Canvas"}
                       </div>
                     </p.Stack>
-                    <div
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.text__zCf3G
-                      )}
-                    >
-                      {"ellipsis-v"}
-                    </div>
+                    <Icon13Icon
+                      className={classNames(projectcss.all, sty.svg__wbsEt)}
+                      role={"img"}
+                    />
                   </div>
                   <div
                     data-plasmic-name={"appTile41"}
@@ -603,15 +515,10 @@ function PlasmicHomepage__RenderFunc(props: {
                         {"LETRS "}
                       </div>
                     </p.Stack>
-                    <div
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.text___7Lhf
-                      )}
-                    >
-                      {"ellipsis-v"}
-                    </div>
+                    <Icon13Icon
+                      className={classNames(projectcss.all, sty.svg___08OSo)}
+                      role={"img"}
+                    />
                   </div>
                 </p.Stack>
               </p.Stack>
@@ -624,79 +531,42 @@ function PlasmicHomepage__RenderFunc(props: {
 
             <div className={classNames(projectcss.all, sty.freeBox___66RPq)}>
               <div
-                data-plasmic-name={"curriculumPlanningHeader2"}
-                data-plasmic-override={overrides.curriculumPlanningHeader2}
+                data-plasmic-name={"curriculumPlanningHeader5"}
+                data-plasmic-override={overrides.curriculumPlanningHeader5}
                 className={classNames(
                   projectcss.all,
-                  sty.curriculumPlanningHeader2
+                  sty.curriculumPlanningHeader5
                 )}
               >
                 <p.Stack
                   as={"div"}
-                  data-plasmic-name={"frame2962"}
-                  data-plasmic-override={overrides.frame2962}
+                  data-plasmic-name={"frame2966"}
+                  data-plasmic-override={overrides.frame2966}
                   hasGap={true}
-                  className={classNames(projectcss.all, sty.frame2962)}
+                  className={classNames(projectcss.all, sty.frame2966)}
                 >
                   <div
                     className={classNames(
                       projectcss.all,
                       projectcss.__wab_text,
-                      sty.text___6J3VS
+                      sty.text__yqwqV
                     )}
                   >
                     {"Student Success"}
                   </div>
-                  <div
-                    data-plasmic-name={"group2998"}
-                    data-plasmic-override={overrides.group2998}
-                    className={classNames(projectcss.all, sty.group2998)}
-                  >
-                    <div
-                      data-plasmic-name={"caretDown3"}
-                      data-plasmic-override={overrides.caretDown3}
-                      className={classNames(projectcss.all, sty.caretDown3)}
-                    >
-                      <div
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.__wab_text,
-                          sty.text___9Ww4L
-                        )}
-                      >
-                        {"caret-down"}
-                      </div>
-                    </div>
-                    <div
-                      data-plasmic-name={"filter3"}
-                      data-plasmic-override={overrides.filter3}
-                      className={classNames(projectcss.all, sty.filter3)}
-                    >
-                      <div
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.__wab_text,
-                          sty.text___0GMd6
-                        )}
-                      >
-                        {"filter"}
-                      </div>
-                    </div>
-                  </div>
+                  <Icon4Icon
+                    className={classNames(projectcss.all, sty.svg__w7Hlt)}
+                    role={"img"}
+                  />
                 </p.Stack>
                 <div
-                  className={classNames(projectcss.all, sty.freeBox__bqUp7)}
+                  className={classNames(projectcss.all, sty.freeBox__fExBy)}
                 />
 
-                <div
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.text__qOBD
-                  )}
-                >
-                  {"chevron-down"}
-                </div>
+                <Icon6Icon
+                  className={classNames(projectcss.all, sty.svg__m4Piv)}
+                  role={"img"}
+                />
               </div>
               <p.Stack
                 as={"div"}
@@ -748,15 +618,10 @@ function PlasmicHomepage__RenderFunc(props: {
                       {"Schoolnet"}
                     </div>
                   </p.Stack>
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__gc3Dh
-                    )}
-                  >
-                    {"ellipsis-v"}
-                  </div>
+                  <Icon13Icon
+                    className={classNames(projectcss.all, sty.svg__bHWzI)}
+                    role={"img"}
+                  />
                 </div>
                 <div
                   data-plasmic-name={"appTile15"}
@@ -765,7 +630,7 @@ function PlasmicHomepage__RenderFunc(props: {
                 >
                   <p.PlasmicImg
                     alt={""}
-                    className={classNames(sty.img__hy4V)}
+                    className={classNames(sty.img__fVcbI)}
                     displayHeight={"60px"}
                     displayMaxHeight={"none"}
                     displayMaxWidth={"100%"}
@@ -774,10 +639,10 @@ function PlasmicHomepage__RenderFunc(props: {
                     displayWidth={"60px"}
                     loading={"lazy"}
                     src={{
-                      src: image27KMefufbWiNeR,
-                      fullWidth: 153,
+                      src: image22Cvgh0HyIvFdP,
+                      fullWidth: 150,
                       fullHeight: 150,
-                      aspectRatio: 1.016667
+                      aspectRatio: 1
                     }}
                   />
 
@@ -795,18 +660,13 @@ function PlasmicHomepage__RenderFunc(props: {
                         sty.text__kmX2Y
                       )}
                     >
-                      {"Power\nTeacher"}
+                      {"Canvas"}
                     </div>
                   </p.Stack>
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__upJ3G
-                    )}
-                  >
-                    {"ellipsis-v"}
-                  </div>
+                  <Icon13Icon
+                    className={classNames(projectcss.all, sty.svg___8U6MH)}
+                    role={"img"}
+                  />
                 </div>
                 <div
                   data-plasmic-name={"appTile16"}
@@ -848,15 +708,10 @@ function PlasmicHomepage__RenderFunc(props: {
                       {"PS Student"}
                     </div>
                   </p.Stack>
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__w8Q
-                    )}
-                  >
-                    {"ellipsis-v"}
-                  </div>
+                  <Icon13Icon
+                    className={classNames(projectcss.all, sty.svg___4I6S5)}
+                    role={"img"}
+                  />
                 </div>
                 <div
                   data-plasmic-name={"appTile24"}
@@ -898,15 +753,10 @@ function PlasmicHomepage__RenderFunc(props: {
                       {"NCEES"}
                     </div>
                   </p.Stack>
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__xzpeo
-                    )}
-                  >
-                    {"ellipsis-v"}
-                  </div>
+                  <Icon13Icon
+                    className={classNames(projectcss.all, sty.svg__iAbcD)}
+                    role={"img"}
+                  />
                 </div>
                 <div
                   data-plasmic-name={"appTile32"}
@@ -948,15 +798,10 @@ function PlasmicHomepage__RenderFunc(props: {
                       {"Amplify"}
                     </div>
                   </p.Stack>
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__n3VFt
-                    )}
-                  >
-                    {"ellipsis-v"}
-                  </div>
+                  <Icon13Icon
+                    className={classNames(projectcss.all, sty.svg__xtkpm)}
+                    role={"img"}
+                  />
                 </div>
                 <div
                   data-plasmic-name={"appTile22"}
@@ -998,15 +843,10 @@ function PlasmicHomepage__RenderFunc(props: {
                       {"EBSCO"}
                     </div>
                   </p.Stack>
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text___5YWgn
-                    )}
-                  >
-                    {"ellipsis-v"}
-                  </div>
+                  <Icon13Icon
+                    className={classNames(projectcss.all, sty.svg__ePrXs)}
+                    role={"img"}
+                  />
                 </div>
                 <div
                   data-plasmic-name={"appTile23"}
@@ -1048,15 +888,10 @@ function PlasmicHomepage__RenderFunc(props: {
                       {"LETRS "}
                     </div>
                   </p.Stack>
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text___9UJb0
-                    )}
-                  >
-                    {"ellipsis-v"}
-                  </div>
+                  <Icon13Icon
+                    className={classNames(projectcss.all, sty.svg__gpQew)}
+                    role={"img"}
+                  />
                 </div>
               </p.Stack>
             </div>
@@ -1073,16 +908,10 @@ const PlasmicDescendants = {
     "sideNav",
     "frame2976",
     "frame2975",
-    "_",
     "textInput",
     "frame2974",
-    "frame2973",
-    "plusCircle",
-    "curriculumPlanningHeader",
-    "frame2961",
-    "group2997",
-    "caretDown2",
-    "filter2",
+    "curriculumPlanningHeader4",
+    "frame2965",
     "curriculumPlanningSection2",
     "recentlyUsedApps3",
     "appTile6",
@@ -1096,11 +925,8 @@ const PlasmicDescendants = {
     "appTile41",
     "frame3009",
     "collapsibleSection",
-    "curriculumPlanningHeader2",
-    "frame2962",
-    "group2998",
-    "caretDown3",
-    "filter3",
+    "curriculumPlanningHeader5",
+    "frame2966",
     "curriculumPlanningSection",
     "appTile2",
     "frame2964",
@@ -1118,32 +944,12 @@ const PlasmicDescendants = {
     "frame2991"
   ],
   sideNav: ["sideNav"],
-  frame2976: [
-    "frame2976",
-    "frame2975",
-    "_",
-    "textInput",
-    "frame2974",
-    "frame2973",
-    "plusCircle"
-  ],
-  frame2975: ["frame2975", "_", "textInput"],
-  _: ["_"],
+  frame2976: ["frame2976", "frame2975", "textInput", "frame2974"],
+  frame2975: ["frame2975", "textInput"],
   textInput: ["textInput"],
-  frame2974: ["frame2974", "frame2973"],
-  frame2973: ["frame2973"],
-  plusCircle: ["plusCircle"],
-  curriculumPlanningHeader: [
-    "curriculumPlanningHeader",
-    "frame2961",
-    "group2997",
-    "caretDown2",
-    "filter2"
-  ],
-  frame2961: ["frame2961", "group2997", "caretDown2", "filter2"],
-  group2997: ["group2997", "caretDown2", "filter2"],
-  caretDown2: ["caretDown2"],
-  filter2: ["filter2"],
+  frame2974: ["frame2974"],
+  curriculumPlanningHeader4: ["curriculumPlanningHeader4", "frame2965"],
+  frame2965: ["frame2965"],
   curriculumPlanningSection2: [
     "curriculumPlanningSection2",
     "recentlyUsedApps3",
@@ -1182,17 +988,8 @@ const PlasmicDescendants = {
   appTile41: ["appTile41", "frame3009"],
   frame3009: ["frame3009"],
   collapsibleSection: ["collapsibleSection"],
-  curriculumPlanningHeader2: [
-    "curriculumPlanningHeader2",
-    "frame2962",
-    "group2998",
-    "caretDown3",
-    "filter3"
-  ],
-  frame2962: ["frame2962", "group2998", "caretDown3", "filter3"],
-  group2998: ["group2998", "caretDown3", "filter3"],
-  caretDown3: ["caretDown3"],
-  filter3: ["filter3"],
+  curriculumPlanningHeader5: ["curriculumPlanningHeader5", "frame2966"],
+  frame2966: ["frame2966"],
   curriculumPlanningSection: [
     "curriculumPlanningSection",
     "appTile2",
@@ -1233,16 +1030,10 @@ type NodeDefaultElementType = {
   sideNav: typeof Nav;
   frame2976: "div";
   frame2975: "div";
-  _: "div";
   textInput: typeof TextInput;
   frame2974: "div";
-  frame2973: "div";
-  plusCircle: "div";
-  curriculumPlanningHeader: "div";
-  frame2961: "div";
-  group2997: "div";
-  caretDown2: "div";
-  filter2: "div";
+  curriculumPlanningHeader4: "div";
+  frame2965: "div";
   curriculumPlanningSection2: "div";
   recentlyUsedApps3: "div";
   appTile6: "div";
@@ -1256,11 +1047,8 @@ type NodeDefaultElementType = {
   appTile41: "div";
   frame3009: "div";
   collapsibleSection: typeof CollapsibleSection;
-  curriculumPlanningHeader2: "div";
-  frame2962: "div";
-  group2998: "div";
-  caretDown3: "div";
-  filter3: "div";
+  curriculumPlanningHeader5: "div";
+  frame2966: "div";
   curriculumPlanningSection: "div";
   appTile2: "div";
   frame2964: "div";
@@ -1341,16 +1129,10 @@ export const PlasmicHomepage = Object.assign(
     sideNav: makeNodeComponent("sideNav"),
     frame2976: makeNodeComponent("frame2976"),
     frame2975: makeNodeComponent("frame2975"),
-    _: makeNodeComponent("_"),
     textInput: makeNodeComponent("textInput"),
     frame2974: makeNodeComponent("frame2974"),
-    frame2973: makeNodeComponent("frame2973"),
-    plusCircle: makeNodeComponent("plusCircle"),
-    curriculumPlanningHeader: makeNodeComponent("curriculumPlanningHeader"),
-    frame2961: makeNodeComponent("frame2961"),
-    group2997: makeNodeComponent("group2997"),
-    caretDown2: makeNodeComponent("caretDown2"),
-    filter2: makeNodeComponent("filter2"),
+    curriculumPlanningHeader4: makeNodeComponent("curriculumPlanningHeader4"),
+    frame2965: makeNodeComponent("frame2965"),
     curriculumPlanningSection2: makeNodeComponent("curriculumPlanningSection2"),
     recentlyUsedApps3: makeNodeComponent("recentlyUsedApps3"),
     appTile6: makeNodeComponent("appTile6"),
@@ -1364,11 +1146,8 @@ export const PlasmicHomepage = Object.assign(
     appTile41: makeNodeComponent("appTile41"),
     frame3009: makeNodeComponent("frame3009"),
     collapsibleSection: makeNodeComponent("collapsibleSection"),
-    curriculumPlanningHeader2: makeNodeComponent("curriculumPlanningHeader2"),
-    frame2962: makeNodeComponent("frame2962"),
-    group2998: makeNodeComponent("group2998"),
-    caretDown3: makeNodeComponent("caretDown3"),
-    filter3: makeNodeComponent("filter3"),
+    curriculumPlanningHeader5: makeNodeComponent("curriculumPlanningHeader5"),
+    frame2966: makeNodeComponent("frame2966"),
     curriculumPlanningSection: makeNodeComponent("curriculumPlanningSection"),
     appTile2: makeNodeComponent("appTile2"),
     frame2964: makeNodeComponent("frame2964"),

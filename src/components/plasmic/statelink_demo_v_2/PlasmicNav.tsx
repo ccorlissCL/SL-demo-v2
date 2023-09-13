@@ -40,10 +40,21 @@ import "@plasmicapp/react-web/lib/plasmic.css";
 import projectcss from "./plasmic_statelink_demo_v_2.module.css"; // plasmic-import: aidk5hCMmGyuB8c7wzcfxE/projectcss
 import sty from "./PlasmicNav.module.css"; // plasmic-import: YM9np3MJPfAp/css
 
+import Icon14Icon from "./icons/PlasmicIcon__Icon14"; // plasmic-import: KMRH1MyS3RKv/icon
 import Icon3Icon from "./icons/PlasmicIcon__Icon3"; // plasmic-import: v11bfmXXvSIp/icon
-import vector6HjOZrtF1Ohnp from "./images/vector6.svg"; // plasmic-import: HjOZrtF1Ohnp/picture
-import group3CUi3MeiJQs from "./images/group3.svg"; // plasmic-import: C-ui3MEI-JQs/picture
+import Icon16Icon from "./icons/PlasmicIcon__Icon16"; // plasmic-import: ICS8wo8eg2rk/icon
+import Icon18Icon from "./icons/PlasmicIcon__Icon18"; // plasmic-import: InRXIZB_Dyxl/icon
+import Icon17Icon from "./icons/PlasmicIcon__Icon17"; // plasmic-import: AcH-nVT39fsD/icon
+import Icon19Icon from "./icons/PlasmicIcon__Icon19"; // plasmic-import: 3ES35Gw_QcrW/icon
+import Icon20Icon from "./icons/PlasmicIcon__Icon20"; // plasmic-import: s_MKYS3rEUCf/icon
+import Icon15Icon from "./icons/PlasmicIcon__Icon15"; // plasmic-import: nstRhakN47s_/icon
+import Icon10Icon from "./icons/PlasmicIcon__Icon10"; // plasmic-import: nfuqtvi0oc0g/icon
+import Icon11Icon from "./icons/PlasmicIcon__Icon11"; // plasmic-import: VUyqFRmOnZ3r/icon
+import Icon7Icon from "./icons/PlasmicIcon__Icon7"; // plasmic-import: gdFzTSd9Q1jH/icon
+import Icon8Icon from "./icons/PlasmicIcon__Icon8"; // plasmic-import: ynA53ZBF4RhC/icon
+import Icon9Icon from "./icons/PlasmicIcon__Icon9"; // plasmic-import: W5H8iBlXSEw5/icon
 import image32F2NiF8ThhKv from "./images/image32.svg"; // plasmic-import: f2niF-8ThhKv/picture
+import image43Fq71HQWldni from "./images/image43.svg"; // plasmic-import: fq71h_qWldni/picture
 
 createPlasmicElementProxy;
 
@@ -64,6 +75,11 @@ export type PlasmicNav__OverridesType = {
   root?: p.Flex<"div">;
   caretLeft?: p.Flex<"div">;
   ncdpiNextGenColor1?: p.Flex<"div">;
+  card?: p.Flex<"div">;
+  frame2988?: p.Flex<"div">;
+  group3300?: p.Flex<"div">;
+  freeBox?: p.Flex<"div">;
+  superAdmin?: p.Flex<"div">;
   frame1340?: p.Flex<"div">;
   ncdpiNextGenColor2?: p.Flex<"div">;
   image11?: p.Flex<"div">;
@@ -75,33 +91,25 @@ export type PlasmicNav__OverridesType = {
   card2?: p.Flex<"div">;
   background?: p.Flex<"div">;
   frame?: p.Flex<"div">;
-  maskGroup?: p.Flex<"div">;
   frame1338?: p.Flex<"div">;
-  sideNavBlocks?: p.Flex<"div">;
-  _?: p.Flex<"div">;
   sideNavBlocks4?: p.Flex<"div">;
   grid2Plus?: p.Flex<"div">;
   _7?: p.Flex<"div">;
+  sideNavBlocks7?: p.Flex<"div">;
+  grid2Plus2?: p.Flex<"div">;
+  _12?: p.Flex<"div">;
   sideNavBlocks5?: p.Flex<"div">;
   _9?: p.Flex<"div">;
-  component23?: p.Flex<"div">;
+  sideNavBlocks6?: p.Flex<"div">;
+  _11?: p.Flex<"div">;
   component24?: p.Flex<"div">;
   signOut?: p.Flex<"div">;
   _10?: p.Flex<"div">;
-  card?: p.Flex<"div">;
-  frame2988?: p.Flex<"div">;
-  group3300?: p.Flex<"div">;
-  freeBox?: p.Flex<"div">;
-  superAdmin?: p.Flex<"div">;
-  svg?: p.Flex<"svg">;
   sideNavBlocks2?: p.Flex<"div">;
-  tachometerAlt?: p.Flex<"div">;
   _5?: p.Flex<"div">;
   apps?: p.Flex<"div">;
   _4?: p.Flex<"div">;
-  _2?: p.Flex<"div">;
   overview?: p.Flex<"div">;
-  _3?: p.Flex<"div">;
   appList?: p.Flex<"div">;
   component18?: p.Flex<"div">;
   allUsers?: p.Flex<"div">;
@@ -114,11 +122,8 @@ export type PlasmicNav__OverridesType = {
   dashboard?: p.Flex<"div">;
   _6?: p.Flex<"div">;
   component22?: p.Flex<"div">;
-  cog?: p.Flex<"div">;
   dashboard2?: p.Flex<"div">;
   component21?: p.Flex<"div">;
-  fileInvoiceDollar?: p.Flex<"div">;
-  fileInvoiceDollar2?: p.Flex<"div">;
   dashboard3?: p.Flex<"div">;
   _8?: p.Flex<"div">;
 };
@@ -221,24 +226,16 @@ function PlasmicNav__RenderFunc(props: {
           }
         }}
       >
-        <div
-          className={classNames(
-            projectcss.all,
-            projectcss.__wab_text,
-            sty.text___9IZ3P,
-            {
-              [sty.textcollapsed___9IZ3Puym1M]: hasVariant(
-                $state,
-                "collapsed",
-                "collapsed"
-              )
-            }
-          )}
-        >
-          {hasVariant($state, "collapsed", "collapsed")
-            ? "caret-right"
-            : "caret-left"}
-        </div>
+        <Icon14Icon
+          className={classNames(projectcss.all, sty.svg__ryksk, {
+            [sty.svgcollapsed__rykskUym1M]: hasVariant(
+              $state,
+              "collapsed",
+              "collapsed"
+            )
+          })}
+          role={"img"}
+        />
       </div>
       <div
         data-plasmic-name={"ncdpiNextGenColor1"}
@@ -252,6 +249,85 @@ function PlasmicNav__RenderFunc(props: {
         })}
       />
 
+      <p.Stack
+        as={"div"}
+        data-plasmic-name={"card"}
+        data-plasmic-override={overrides.card}
+        hasGap={true}
+        className={classNames(projectcss.all, sty.card)}
+      >
+        <div
+          data-plasmic-name={"frame2988"}
+          data-plasmic-override={overrides.frame2988}
+          className={classNames(projectcss.all, sty.frame2988, {
+            [sty.frame2988collapsed]: hasVariant(
+              $state,
+              "collapsed",
+              "collapsed"
+            )
+          })}
+        >
+          <div
+            data-plasmic-name={"group3300"}
+            data-plasmic-override={overrides.group3300}
+            className={classNames(projectcss.all, sty.group3300)}
+          >
+            <p.PlasmicImg
+              alt={""}
+              className={classNames(sty.img__ibpco, {
+                [sty.imgcollapsed__ibpcoUym1M]: hasVariant(
+                  $state,
+                  "collapsed",
+                  "collapsed"
+                )
+              })}
+              displayHeight={"auto"}
+              displayMaxHeight={"none"}
+              displayMaxWidth={"100%"}
+              displayMinHeight={"0"}
+              displayMinWidth={"0"}
+              displayWidth={"40px"}
+              loading={"lazy"}
+              src={{
+                src: image32F2NiF8ThhKv,
+                fullWidth: 150,
+                fullHeight: 150,
+                aspectRatio: 1
+              }}
+            />
+          </div>
+          <div
+            data-plasmic-name={"freeBox"}
+            data-plasmic-override={overrides.freeBox}
+            className={classNames(projectcss.all, sty.freeBox)}
+          >
+            <div
+              className={classNames(
+                projectcss.all,
+                projectcss.__wab_text,
+                sty.text__vomb1
+              )}
+            >
+              {"Bob Cotes"}
+            </div>
+            <div
+              data-plasmic-name={"superAdmin"}
+              data-plasmic-override={overrides.superAdmin}
+              className={classNames(
+                projectcss.all,
+                projectcss.__wab_text,
+                sty.superAdmin
+              )}
+            >
+              {"Super Admin "}
+            </div>
+          </div>
+          <Icon3Icon
+            className={classNames(projectcss.all, sty.svg___4YVsB)}
+            role={"img"}
+          />
+        </div>
+      </p.Stack>
       {(hasVariant($state, "collapsed", "collapsed") ? true : false) ? (
         <p.Stack
           as={"div"}
@@ -342,57 +418,27 @@ function PlasmicNav__RenderFunc(props: {
             >
               <p.PlasmicImg
                 alt={""}
-                className={classNames(sty.img___9Ed4M, {
-                  [sty.imgcollapsed___9Ed4MUym1M]: hasVariant(
+                className={classNames(sty.img__c9Kh, {
+                  [sty.imgcollapsed__c9KhUym1M]: hasVariant(
                     $state,
                     "collapsed",
                     "collapsed"
                   )
                 })}
-                displayHeight={"46px"}
+                displayHeight={"39px"}
                 displayMaxHeight={"none"}
                 displayMaxWidth={"100%"}
                 displayMinHeight={"0"}
                 displayMinWidth={"0"}
-                displayWidth={"46px"}
+                displayWidth={"39px"}
                 loading={"lazy"}
                 src={{
-                  src: vector6HjOZrtF1Ohnp,
-                  fullWidth: 46,
-                  fullHeight: 46,
-                  aspectRatio: 1
+                  src: image43Fq71HQWldni,
+                  fullWidth: 145,
+                  fullHeight: 150,
+                  aspectRatio: 0.966667
                 }}
               />
-
-              <div
-                data-plasmic-name={"maskGroup"}
-                data-plasmic-override={overrides.maskGroup}
-                className={classNames(projectcss.all, sty.maskGroup)}
-              >
-                <p.PlasmicImg
-                  alt={""}
-                  className={classNames(sty.img__vt6Vu, {
-                    [sty.imgcollapsed__vt6VuUym1M]: hasVariant(
-                      $state,
-                      "collapsed",
-                      "collapsed"
-                    )
-                  })}
-                  displayHeight={"45.518px"}
-                  displayMaxHeight={"none"}
-                  displayMaxWidth={"100%"}
-                  displayMinHeight={"0"}
-                  displayMinWidth={"0"}
-                  displayWidth={"47.779px"}
-                  loading={"lazy"}
-                  src={{
-                    src: group3CUi3MeiJQs,
-                    fullWidth: 47.779,
-                    fullHeight: 45.518,
-                    aspectRatio: 1.043478
-                  }}
-                />
-              </div>
             </div>
           </p.Stack>
           <p.Stack
@@ -402,40 +448,6 @@ function PlasmicNav__RenderFunc(props: {
             hasGap={true}
             className={classNames(projectcss.all, sty.frame1338)}
           >
-            <p.Stack
-              as={"div"}
-              data-plasmic-name={"sideNavBlocks"}
-              data-plasmic-override={overrides.sideNavBlocks}
-              hasGap={true}
-              className={classNames(projectcss.all, sty.sideNavBlocks)}
-            >
-              <div
-                className={classNames(
-                  projectcss.all,
-                  projectcss.__wab_text,
-                  sty.text__bBoZp
-                )}
-              >
-                {"file-alt"}
-              </div>
-              <div
-                data-plasmic-name={"_"}
-                data-plasmic-override={overrides._}
-                className={classNames(projectcss.all, sty._)}
-              >
-                {false ? (
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__lkRsl
-                    )}
-                  >
-                    {"\uf078"}
-                  </div>
-                ) : null}
-              </div>
-            </p.Stack>
             <p.Stack
               as={"div"}
               data-plasmic-name={"sideNavBlocks4"}
@@ -448,15 +460,16 @@ function PlasmicNav__RenderFunc(props: {
                 data-plasmic-override={overrides.grid2Plus}
                 className={classNames(projectcss.all, sty.grid2Plus)}
               >
-                <div
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.text__typX2
-                  )}
-                >
-                  {"grid-2-plus"}
-                </div>
+                <Icon16Icon
+                  className={classNames(projectcss.all, sty.svg__dUDb, {
+                    [sty.svgcollapsed__dUDbUym1M]: hasVariant(
+                      $state,
+                      "collapsed",
+                      "collapsed"
+                    )
+                  })}
+                  role={"img"}
+                />
               </div>
               <div
                 data-plasmic-name={"_7"}
@@ -478,20 +491,58 @@ function PlasmicNav__RenderFunc(props: {
             </p.Stack>
             <p.Stack
               as={"div"}
+              data-plasmic-name={"sideNavBlocks7"}
+              data-plasmic-override={overrides.sideNavBlocks7}
+              hasGap={true}
+              className={classNames(projectcss.all, sty.sideNavBlocks7, {
+                [sty.sideNavBlocks7collapsed]: hasVariant(
+                  $state,
+                  "collapsed",
+                  "collapsed"
+                )
+              })}
+            >
+              <div
+                data-plasmic-name={"grid2Plus2"}
+                data-plasmic-override={overrides.grid2Plus2}
+                className={classNames(projectcss.all, sty.grid2Plus2)}
+              >
+                <Icon18Icon
+                  className={classNames(projectcss.all, sty.svg__dnULc, {
+                    [sty.svgcollapsed__dnULcUym1M]: hasVariant(
+                      $state,
+                      "collapsed",
+                      "collapsed"
+                    )
+                  })}
+                  role={"img"}
+                />
+              </div>
+              <div
+                data-plasmic-name={"_12"}
+                data-plasmic-override={overrides._12}
+                className={classNames(projectcss.all, sty._12)}
+              >
+                {false ? (
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text___7UJp9
+                    )}
+                  >
+                    {"\uf078"}
+                  </div>
+                ) : null}
+              </div>
+            </p.Stack>
+            <p.Stack
+              as={"div"}
               data-plasmic-name={"sideNavBlocks5"}
               data-plasmic-override={overrides.sideNavBlocks5}
               hasGap={true}
               className={classNames(projectcss.all, sty.sideNavBlocks5)}
             >
-              <div
-                className={classNames(
-                  projectcss.all,
-                  projectcss.__wab_text,
-                  sty.text__lGPnJ
-                )}
-              >
-                {"cog"}
-              </div>
               <div
                 data-plasmic-name={"_9"}
                 data-plasmic-override={overrides._9}
@@ -508,23 +559,57 @@ function PlasmicNav__RenderFunc(props: {
                     {"\uf078"}
                   </div>
                 ) : null}
+                <Icon17Icon
+                  className={classNames(projectcss.all, sty.svg___6Affb, {
+                    [sty.svgcollapsed___6Affbuym1M]: hasVariant(
+                      $state,
+                      "collapsed",
+                      "collapsed"
+                    )
+                  })}
+                  role={"img"}
+                />
               </div>
             </p.Stack>
             <p.Stack
               as={"div"}
-              data-plasmic-name={"component23"}
-              data-plasmic-override={overrides.component23}
+              data-plasmic-name={"sideNavBlocks6"}
+              data-plasmic-override={overrides.sideNavBlocks6}
               hasGap={true}
-              className={classNames(projectcss.all, sty.component23)}
+              className={classNames(projectcss.all, sty.sideNavBlocks6, {
+                [sty.sideNavBlocks6collapsed]: hasVariant(
+                  $state,
+                  "collapsed",
+                  "collapsed"
+                )
+              })}
             >
               <div
-                className={classNames(
-                  projectcss.all,
-                  projectcss.__wab_text,
-                  sty.text__ad7Q
-                )}
+                data-plasmic-name={"_11"}
+                data-plasmic-override={overrides._11}
+                className={classNames(projectcss.all, sty._11)}
               >
-                {"books"}
+                {false ? (
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__o22Xv
+                    )}
+                  >
+                    {"\uf078"}
+                  </div>
+                ) : null}
+                <Icon19Icon
+                  className={classNames(projectcss.all, sty.svg__euVWy, {
+                    [sty.svgcollapsed__euVWyUym1M]: hasVariant(
+                      $state,
+                      "collapsed",
+                      "collapsed"
+                    )
+                  })}
+                  role={"img"}
+                />
               </div>
             </p.Stack>
             <p.Stack
@@ -538,17 +623,19 @@ function PlasmicNav__RenderFunc(props: {
                 data-plasmic-name={"signOut"}
                 data-plasmic-override={overrides.signOut}
                 className={classNames(projectcss.all, sty.signOut)}
-              >
-                <div
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.text___3Mnus
-                  )}
-                >
-                  {"sign-out"}
-                </div>
-              </div>
+              />
+
+              <Icon20Icon
+                className={classNames(projectcss.all, sty.svg___5JlVl, {
+                  [sty.svgcollapsed___5JlVlUym1M]: hasVariant(
+                    $state,
+                    "collapsed",
+                    "collapsed"
+                  )
+                })}
+                role={"img"}
+              />
+
               <div
                 data-plasmic-name={"_10"}
                 data-plasmic-override={overrides._10}
@@ -572,87 +659,6 @@ function PlasmicNav__RenderFunc(props: {
       ) : null}
       <p.Stack
         as={"div"}
-        data-plasmic-name={"card"}
-        data-plasmic-override={overrides.card}
-        hasGap={true}
-        className={classNames(projectcss.all, sty.card)}
-      >
-        <div
-          data-plasmic-name={"frame2988"}
-          data-plasmic-override={overrides.frame2988}
-          className={classNames(projectcss.all, sty.frame2988, {
-            [sty.frame2988collapsed]: hasVariant(
-              $state,
-              "collapsed",
-              "collapsed"
-            )
-          })}
-        >
-          <div
-            data-plasmic-name={"group3300"}
-            data-plasmic-override={overrides.group3300}
-            className={classNames(projectcss.all, sty.group3300)}
-          >
-            <p.PlasmicImg
-              alt={""}
-              className={classNames(sty.img__ibpco, {
-                [sty.imgcollapsed__ibpcoUym1M]: hasVariant(
-                  $state,
-                  "collapsed",
-                  "collapsed"
-                )
-              })}
-              displayHeight={"auto"}
-              displayMaxHeight={"none"}
-              displayMaxWidth={"100%"}
-              displayMinHeight={"0"}
-              displayMinWidth={"0"}
-              displayWidth={"40px"}
-              loading={"lazy"}
-              src={{
-                src: image32F2NiF8ThhKv,
-                fullWidth: 150,
-                fullHeight: 150,
-                aspectRatio: 1
-              }}
-            />
-          </div>
-          <div
-            data-plasmic-name={"freeBox"}
-            data-plasmic-override={overrides.freeBox}
-            className={classNames(projectcss.all, sty.freeBox)}
-          >
-            <div
-              className={classNames(
-                projectcss.all,
-                projectcss.__wab_text,
-                sty.text__vomb1
-              )}
-            >
-              {"Bob Cotes"}
-            </div>
-            <div
-              data-plasmic-name={"superAdmin"}
-              data-plasmic-override={overrides.superAdmin}
-              className={classNames(
-                projectcss.all,
-                projectcss.__wab_text,
-                sty.superAdmin
-              )}
-            >
-              {"Super Admin "}
-            </div>
-          </div>
-          <Icon3Icon
-            data-plasmic-name={"svg"}
-            data-plasmic-override={overrides.svg}
-            className={classNames(projectcss.all, sty.svg)}
-            role={"img"}
-          />
-        </div>
-      </p.Stack>
-      <p.Stack
-        as={"div"}
         data-plasmic-name={"sideNavBlocks2"}
         data-plasmic-override={overrides.sideNavBlocks2}
         hasGap={true}
@@ -664,17 +670,11 @@ function PlasmicNav__RenderFunc(props: {
           )
         })}
       >
-        <div
-          data-plasmic-name={"tachometerAlt"}
-          data-plasmic-override={overrides.tachometerAlt}
-          className={classNames(
-            projectcss.all,
-            projectcss.__wab_text,
-            sty.tachometerAlt
-          )}
-        >
-          {"file-alt"}
-        </div>
+        <Icon15Icon
+          className={classNames(projectcss.all, sty.svg__l0Oae)}
+          role={"img"}
+        />
+
         <div
           className={classNames(
             projectcss.all,
@@ -725,17 +725,11 @@ function PlasmicNav__RenderFunc(props: {
           hasGap={true}
           className={classNames(projectcss.all, sty._4)}
         >
-          <div
-            data-plasmic-name={"_2"}
-            data-plasmic-override={overrides._2}
-            className={classNames(
-              projectcss.all,
-              projectcss.__wab_text,
-              sty._2
-            )}
-          >
-            {"grid-2-plus"}
-          </div>
+          <Icon10Icon
+            className={classNames(projectcss.all, sty.svg__pm3Mm)}
+            role={"img"}
+          />
+
           <div
             data-plasmic-name={"overview"}
             data-plasmic-override={overrides.overview}
@@ -747,22 +741,11 @@ function PlasmicNav__RenderFunc(props: {
           >
             {"Apps"}
           </div>
+          <Icon11Icon
+            className={classNames(projectcss.all, sty.svg__qOfi)}
+            role={"img"}
+          />
         </p.Stack>
-        <div
-          data-plasmic-name={"_3"}
-          data-plasmic-override={overrides._3}
-          className={classNames(projectcss.all, sty._3)}
-        >
-          <div
-            className={classNames(
-              projectcss.all,
-              projectcss.__wab_text,
-              sty.text__fVaBg
-            )}
-          >
-            {"\uf077"}
-          </div>
-        </div>
       </p.Stack>
       <p.Stack
         as={"div"}
@@ -855,22 +838,11 @@ function PlasmicNav__RenderFunc(props: {
             )
           })}
         >
-          <div
-            className={classNames(
-              projectcss.all,
-              projectcss.__wab_text,
-              sty.text__dznYi,
-              {
-                [sty.textcollapsed__dznYiuym1M]: hasVariant(
-                  $state,
-                  "collapsed",
-                  "collapsed"
-                )
-              }
-            )}
-          >
-            {"cog"}
-          </div>
+          <Icon7Icon
+            className={classNames(projectcss.all, sty.svg__z2EI)}
+            role={"img"}
+          />
+
           <div
             data-plasmic-name={"dashboard"}
             data-plasmic-override={overrides.dashboard}
@@ -914,20 +886,11 @@ function PlasmicNav__RenderFunc(props: {
           hasGap={true}
           className={classNames(projectcss.all, sty.component22)}
         >
-          <div
-            data-plasmic-name={"cog"}
-            data-plasmic-override={overrides.cog}
-            className={classNames(
-              projectcss.all,
-              projectcss.__wab_text,
-              sty.cog,
-              {
-                [sty.cogcollapsed]: hasVariant($state, "collapsed", "collapsed")
-              }
-            )}
-          >
-            {"books"}
-          </div>
+          <Icon8Icon
+            className={classNames(projectcss.all, sty.svg___1KoUu)}
+            role={"img"}
+          />
+
           <div
             data-plasmic-name={"dashboard2"}
             data-plasmic-override={overrides.dashboard2}
@@ -954,23 +917,11 @@ function PlasmicNav__RenderFunc(props: {
           hasGap={true}
           className={classNames(projectcss.all, sty.component21)}
         >
-          <div
-            data-plasmic-name={"fileInvoiceDollar"}
-            data-plasmic-override={overrides.fileInvoiceDollar}
-            className={classNames(projectcss.all, sty.fileInvoiceDollar)}
-          >
-            <div
-              data-plasmic-name={"fileInvoiceDollar2"}
-              data-plasmic-override={overrides.fileInvoiceDollar2}
-              className={classNames(
-                projectcss.all,
-                projectcss.__wab_text,
-                sty.fileInvoiceDollar2
-              )}
-            >
-              {"sign-out"}
-            </div>
-          </div>
+          <Icon9Icon
+            className={classNames(projectcss.all, sty.svg__xbkAc)}
+            role={"img"}
+          />
+
           <div
             data-plasmic-name={"dashboard3"}
             data-plasmic-override={overrides.dashboard3}
@@ -1010,6 +961,11 @@ const PlasmicDescendants = {
     "root",
     "caretLeft",
     "ncdpiNextGenColor1",
+    "card",
+    "frame2988",
+    "group3300",
+    "freeBox",
+    "superAdmin",
     "frame1340",
     "ncdpiNextGenColor2",
     "image11",
@@ -1021,33 +977,25 @@ const PlasmicDescendants = {
     "card2",
     "background",
     "frame",
-    "maskGroup",
     "frame1338",
-    "sideNavBlocks",
-    "_",
     "sideNavBlocks4",
     "grid2Plus",
     "_7",
+    "sideNavBlocks7",
+    "grid2Plus2",
+    "_12",
     "sideNavBlocks5",
     "_9",
-    "component23",
+    "sideNavBlocks6",
+    "_11",
     "component24",
     "signOut",
     "_10",
-    "card",
-    "frame2988",
-    "group3300",
-    "freeBox",
-    "superAdmin",
-    "svg",
     "sideNavBlocks2",
-    "tachometerAlt",
     "_5",
     "apps",
     "_4",
-    "_2",
     "overview",
-    "_3",
     "appList",
     "component18",
     "allUsers",
@@ -1060,16 +1008,18 @@ const PlasmicDescendants = {
     "dashboard",
     "_6",
     "component22",
-    "cog",
     "dashboard2",
     "component21",
-    "fileInvoiceDollar",
-    "fileInvoiceDollar2",
     "dashboard3",
     "_8"
   ],
   caretLeft: ["caretLeft"],
   ncdpiNextGenColor1: ["ncdpiNextGenColor1"],
+  card: ["card", "frame2988", "group3300", "freeBox", "superAdmin"],
+  frame2988: ["frame2988", "group3300", "freeBox", "superAdmin"],
+  group3300: ["group3300"],
+  freeBox: ["freeBox", "superAdmin"],
+  superAdmin: ["superAdmin"],
   frame1340: [
     "frame1340",
     "ncdpiNextGenColor2",
@@ -1082,16 +1032,17 @@ const PlasmicDescendants = {
     "card2",
     "background",
     "frame",
-    "maskGroup",
     "frame1338",
-    "sideNavBlocks",
-    "_",
     "sideNavBlocks4",
     "grid2Plus",
     "_7",
+    "sideNavBlocks7",
+    "grid2Plus2",
+    "_12",
     "sideNavBlocks5",
     "_9",
-    "component23",
+    "sideNavBlocks6",
+    "_11",
     "component24",
     "signOut",
     "_10"
@@ -1103,49 +1054,43 @@ const PlasmicDescendants = {
   group3092: ["group3092", "image12", "doeStatePortal"],
   image12: ["image12"],
   doeStatePortal: ["doeStatePortal"],
-  card2: ["card2", "background", "frame", "maskGroup"],
+  card2: ["card2", "background", "frame"],
   background: ["background"],
-  frame: ["frame", "maskGroup"],
-  maskGroup: ["maskGroup"],
+  frame: ["frame"],
   frame1338: [
     "frame1338",
-    "sideNavBlocks",
-    "_",
     "sideNavBlocks4",
     "grid2Plus",
     "_7",
+    "sideNavBlocks7",
+    "grid2Plus2",
+    "_12",
     "sideNavBlocks5",
     "_9",
-    "component23",
+    "sideNavBlocks6",
+    "_11",
     "component24",
     "signOut",
     "_10"
   ],
-  sideNavBlocks: ["sideNavBlocks", "_"],
-  _: ["_"],
   sideNavBlocks4: ["sideNavBlocks4", "grid2Plus", "_7"],
   grid2Plus: ["grid2Plus"],
   _7: ["_7"],
+  sideNavBlocks7: ["sideNavBlocks7", "grid2Plus2", "_12"],
+  grid2Plus2: ["grid2Plus2"],
+  _12: ["_12"],
   sideNavBlocks5: ["sideNavBlocks5", "_9"],
   _9: ["_9"],
-  component23: ["component23"],
+  sideNavBlocks6: ["sideNavBlocks6", "_11"],
+  _11: ["_11"],
   component24: ["component24", "signOut", "_10"],
   signOut: ["signOut"],
   _10: ["_10"],
-  card: ["card", "frame2988", "group3300", "freeBox", "superAdmin", "svg"],
-  frame2988: ["frame2988", "group3300", "freeBox", "superAdmin", "svg"],
-  group3300: ["group3300"],
-  freeBox: ["freeBox", "superAdmin"],
-  superAdmin: ["superAdmin"],
-  svg: ["svg"],
-  sideNavBlocks2: ["sideNavBlocks2", "tachometerAlt", "_5"],
-  tachometerAlt: ["tachometerAlt"],
+  sideNavBlocks2: ["sideNavBlocks2", "_5"],
   _5: ["_5"],
-  apps: ["apps", "_4", "_2", "overview", "_3"],
-  _4: ["_4", "_2", "overview"],
-  _2: ["_2"],
+  apps: ["apps", "_4", "overview"],
+  _4: ["_4", "overview"],
   overview: ["overview"],
-  _3: ["_3"],
   appList: [
     "appList",
     "component18",
@@ -1167,29 +1112,17 @@ const PlasmicDescendants = {
     "dashboard",
     "_6",
     "component22",
-    "cog",
     "dashboard2",
     "component21",
-    "fileInvoiceDollar",
-    "fileInvoiceDollar2",
     "dashboard3",
     "_8"
   ],
   sideNavBlocks3: ["sideNavBlocks3", "dashboard", "_6"],
   dashboard: ["dashboard"],
   _6: ["_6"],
-  component22: ["component22", "cog", "dashboard2"],
-  cog: ["cog"],
+  component22: ["component22", "dashboard2"],
   dashboard2: ["dashboard2"],
-  component21: [
-    "component21",
-    "fileInvoiceDollar",
-    "fileInvoiceDollar2",
-    "dashboard3",
-    "_8"
-  ],
-  fileInvoiceDollar: ["fileInvoiceDollar", "fileInvoiceDollar2"],
-  fileInvoiceDollar2: ["fileInvoiceDollar2"],
+  component21: ["component21", "dashboard3", "_8"],
   dashboard3: ["dashboard3"],
   _8: ["_8"]
 } as const;
@@ -1200,6 +1133,11 @@ type NodeDefaultElementType = {
   root: "div";
   caretLeft: "div";
   ncdpiNextGenColor1: "div";
+  card: "div";
+  frame2988: "div";
+  group3300: "div";
+  freeBox: "div";
+  superAdmin: "div";
   frame1340: "div";
   ncdpiNextGenColor2: "div";
   image11: "div";
@@ -1211,33 +1149,25 @@ type NodeDefaultElementType = {
   card2: "div";
   background: "div";
   frame: "div";
-  maskGroup: "div";
   frame1338: "div";
-  sideNavBlocks: "div";
-  _: "div";
   sideNavBlocks4: "div";
   grid2Plus: "div";
   _7: "div";
+  sideNavBlocks7: "div";
+  grid2Plus2: "div";
+  _12: "div";
   sideNavBlocks5: "div";
   _9: "div";
-  component23: "div";
+  sideNavBlocks6: "div";
+  _11: "div";
   component24: "div";
   signOut: "div";
   _10: "div";
-  card: "div";
-  frame2988: "div";
-  group3300: "div";
-  freeBox: "div";
-  superAdmin: "div";
-  svg: "svg";
   sideNavBlocks2: "div";
-  tachometerAlt: "div";
   _5: "div";
   apps: "div";
   _4: "div";
-  _2: "div";
   overview: "div";
-  _3: "div";
   appList: "div";
   component18: "div";
   allUsers: "div";
@@ -1250,11 +1180,8 @@ type NodeDefaultElementType = {
   dashboard: "div";
   _6: "div";
   component22: "div";
-  cog: "div";
   dashboard2: "div";
   component21: "div";
-  fileInvoiceDollar: "div";
-  fileInvoiceDollar2: "div";
   dashboard3: "div";
   _8: "div";
 };
@@ -1321,6 +1248,11 @@ export const PlasmicNav = Object.assign(
     // Helper components rendering sub-elements
     caretLeft: makeNodeComponent("caretLeft"),
     ncdpiNextGenColor1: makeNodeComponent("ncdpiNextGenColor1"),
+    card: makeNodeComponent("card"),
+    frame2988: makeNodeComponent("frame2988"),
+    group3300: makeNodeComponent("group3300"),
+    freeBox: makeNodeComponent("freeBox"),
+    superAdmin: makeNodeComponent("superAdmin"),
     frame1340: makeNodeComponent("frame1340"),
     ncdpiNextGenColor2: makeNodeComponent("ncdpiNextGenColor2"),
     image11: makeNodeComponent("image11"),
@@ -1332,33 +1264,25 @@ export const PlasmicNav = Object.assign(
     card2: makeNodeComponent("card2"),
     background: makeNodeComponent("background"),
     frame: makeNodeComponent("frame"),
-    maskGroup: makeNodeComponent("maskGroup"),
     frame1338: makeNodeComponent("frame1338"),
-    sideNavBlocks: makeNodeComponent("sideNavBlocks"),
-    _: makeNodeComponent("_"),
     sideNavBlocks4: makeNodeComponent("sideNavBlocks4"),
     grid2Plus: makeNodeComponent("grid2Plus"),
     _7: makeNodeComponent("_7"),
+    sideNavBlocks7: makeNodeComponent("sideNavBlocks7"),
+    grid2Plus2: makeNodeComponent("grid2Plus2"),
+    _12: makeNodeComponent("_12"),
     sideNavBlocks5: makeNodeComponent("sideNavBlocks5"),
     _9: makeNodeComponent("_9"),
-    component23: makeNodeComponent("component23"),
+    sideNavBlocks6: makeNodeComponent("sideNavBlocks6"),
+    _11: makeNodeComponent("_11"),
     component24: makeNodeComponent("component24"),
     signOut: makeNodeComponent("signOut"),
     _10: makeNodeComponent("_10"),
-    card: makeNodeComponent("card"),
-    frame2988: makeNodeComponent("frame2988"),
-    group3300: makeNodeComponent("group3300"),
-    freeBox: makeNodeComponent("freeBox"),
-    superAdmin: makeNodeComponent("superAdmin"),
-    svg: makeNodeComponent("svg"),
     sideNavBlocks2: makeNodeComponent("sideNavBlocks2"),
-    tachometerAlt: makeNodeComponent("tachometerAlt"),
     _5: makeNodeComponent("_5"),
     apps: makeNodeComponent("apps"),
     _4: makeNodeComponent("_4"),
-    _2: makeNodeComponent("_2"),
     overview: makeNodeComponent("overview"),
-    _3: makeNodeComponent("_3"),
     appList: makeNodeComponent("appList"),
     component18: makeNodeComponent("component18"),
     allUsers: makeNodeComponent("allUsers"),
@@ -1371,11 +1295,8 @@ export const PlasmicNav = Object.assign(
     dashboard: makeNodeComponent("dashboard"),
     _6: makeNodeComponent("_6"),
     component22: makeNodeComponent("component22"),
-    cog: makeNodeComponent("cog"),
     dashboard2: makeNodeComponent("dashboard2"),
     component21: makeNodeComponent("component21"),
-    fileInvoiceDollar: makeNodeComponent("fileInvoiceDollar"),
-    fileInvoiceDollar2: makeNodeComponent("fileInvoiceDollar2"),
     dashboard3: makeNodeComponent("dashboard3"),
     _8: makeNodeComponent("_8"),
 
