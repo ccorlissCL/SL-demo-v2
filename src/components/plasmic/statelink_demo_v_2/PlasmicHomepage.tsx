@@ -96,7 +96,7 @@ export type PlasmicHomepage__OverridesType = {
   curriculumPlanningSection?: p.Flex<"div">;
   appTile2?: p.Flex<"div">;
   frame2964?: p.Flex<"div">;
-  appTile15?: p.Flex<"div">;
+  appTile15?: p.Flex<"a">;
   frame2983?: p.Flex<"div">;
   appTile16?: p.Flex<"div">;
   frame2984?: p.Flex<"div">;
@@ -623,10 +623,15 @@ function PlasmicHomepage__RenderFunc(props: {
                     role={"img"}
                   />
                 </div>
-                <div
+                <a
                   data-plasmic-name={"appTile15"}
                   data-plasmic-override={overrides.appTile15}
-                  className={classNames(projectcss.all, sty.appTile15)}
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.a,
+                    sty.appTile15
+                  )}
+                  href={"http://classlink.instructure.com/login/saml"}
                   onClick={async event => {
                     const $steps = {};
                     $steps["goToHttpclasslinkinstructurecomloginsaml"] = true
@@ -653,6 +658,7 @@ function PlasmicHomepage__RenderFunc(props: {
                         ];
                     }
                   }}
+                  title={"Canvas App"}
                 >
                   <p.PlasmicImg
                     alt={""}
@@ -693,7 +699,7 @@ function PlasmicHomepage__RenderFunc(props: {
                     className={classNames(projectcss.all, sty.svg___8U6MH)}
                     role={"img"}
                   />
-                </div>
+                </a>
                 <div
                   data-plasmic-name={"appTile16"}
                   data-plasmic-override={overrides.appTile16}
@@ -1078,7 +1084,7 @@ type NodeDefaultElementType = {
   curriculumPlanningSection: "div";
   appTile2: "div";
   frame2964: "div";
-  appTile15: "div";
+  appTile15: "a";
   frame2983: "div";
   appTile16: "div";
   frame2984: "div";

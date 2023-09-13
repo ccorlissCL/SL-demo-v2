@@ -1008,7 +1008,14 @@
   align-items: center;
   justify-content: flex-start;
   position: relative;
+  transition-property: all;
+  transition-duration: 1s;
+  transform: translateX(0px) translateY(0px) translateZ(0px);
+  left: auto;
+  top: auto;
   flex-shrink: 0;
+  -webkit-transition-property: all;
+  -webkit-transition-duration: 1s;
   border-radius: 6px;
 }
 .img__fVcbI {
