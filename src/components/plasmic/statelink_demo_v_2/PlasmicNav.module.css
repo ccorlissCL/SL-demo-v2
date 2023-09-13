@@ -453,7 +453,7 @@
   color: #666666;
   margin-left: 4px;
   width: 25px;
-  height: 1em;
+  height: 20px;
   flex-shrink: 0;
 }
 ._7 {
@@ -517,7 +517,7 @@
   color: #008ad7;
   margin-left: 4px;
   width: 25px;
-  height: 1em;
+  height: 20px;
   flex-shrink: 0;
 }
 ._12 {
@@ -589,8 +589,8 @@
   object-fit: cover;
   max-width: 100%;
   color: #666;
+  height: 20px;
   width: 1em;
-  height: 1em;
   flex-shrink: 0;
 }
 .sideNavBlocks6 {
@@ -643,8 +643,8 @@
   object-fit: cover;
   max-width: 100%;
   color: #666;
+  height: 20px;
   width: 1em;
-  height: 1em;
   flex-shrink: 0;
 }
 .component24 {
@@ -688,7 +688,7 @@
   max-width: 100%;
   color: #666;
   margin-right: 12px;
-  height: 12px;
+  height: 20px;
   width: 1em;
   flex-shrink: 0;
 }

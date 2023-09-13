@@ -627,6 +627,32 @@ function PlasmicHomepage__RenderFunc(props: {
                   data-plasmic-name={"appTile15"}
                   data-plasmic-override={overrides.appTile15}
                   className={classNames(projectcss.all, sty.appTile15)}
+                  onClick={async event => {
+                    const $steps = {};
+                    $steps["goToHttpclasslinkinstructurecomloginsaml"] = true
+                      ? (() => {
+                          const actionArgs = {
+                            destination:
+                              "http://classlink.instructure.com/login/saml"
+                          };
+                          return (({ destination }) => {
+                            location.assign(destination);
+                          })?.apply(null, [actionArgs]);
+                        })()
+                      : undefined;
+                    if (
+                      typeof $steps[
+                        "goToHttpclasslinkinstructurecomloginsaml"
+                      ] === "object" &&
+                      typeof $steps["goToHttpclasslinkinstructurecomloginsaml"]
+                        .then === "function"
+                    ) {
+                      $steps["goToHttpclasslinkinstructurecomloginsaml"] =
+                        await $steps[
+                          "goToHttpclasslinkinstructurecomloginsaml"
+                        ];
+                    }
+                  }}
                 >
                   <p.PlasmicImg
                     alt={""}
@@ -705,7 +731,7 @@ function PlasmicHomepage__RenderFunc(props: {
                         sty.text__vmiIa
                       )}
                     >
-                      {"PS Student"}
+                      {"PowerSchool Student"}
                     </div>
                   </p.Stack>
                   <Icon13Icon

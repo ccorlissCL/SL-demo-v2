@@ -1164,6 +1164,7 @@
   width: auto;
   white-space: pre-wrap;
   height: 100%;
+  margin-left: calc(22px + 14px) !important;
   min-height: 0;
 }
 .svg___4I6S5 {
