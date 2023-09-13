@@ -880,9 +880,6 @@
   position: relative;
   margin: 0px;
 }
-.collapsed .collapsibleSection:global(.__wab_instance) {
-  display: none;
-}
 .freeBox___66RPq {
   display: flex;
   position: relative;
