@@ -47,7 +47,7 @@ import image27KMefufbWiNeR from "./images/image27.svg"; // plasmic-import: kMEFU
 import image29Sn7WGwiZjpRz from "./images/image29.svg"; // plasmic-import: Sn7wGwiZjpRZ/picture
 import image28Exf2K9AItHtM from "./images/image28.svg"; // plasmic-import: exf2K9aITHtM/picture
 import image34R2D3P8Cb52AX from "./images/image34.svg"; // plasmic-import: R2D3P8Cb52aX/picture
-import image30QvrQx5L41M8V from "./images/image30.svg"; // plasmic-import: QVRQx5l41m8V/picture
+import image18FHcGthkeQ2Fn from "./images/image18.svg"; // plasmic-import: FHcGthkeQ2FN/picture
 
 createPlasmicElementProxy;
 
@@ -444,8 +444,8 @@ function PlasmicCollapsibleSection__RenderFunc(props: {
         >
           <p.PlasmicImg
             alt={""}
-            className={classNames(sty.img___8C0Ox)}
-            displayHeight={"60px"}
+            className={classNames(sty.img__x3Cid)}
+            displayHeight={"59px"}
             displayMaxHeight={"none"}
             displayMaxWidth={"100%"}
             displayMinHeight={"0"}
@@ -453,7 +453,7 @@ function PlasmicCollapsibleSection__RenderFunc(props: {
             displayWidth={"60px"}
             loading={"lazy"}
             src={{
-              src: image30QvrQx5L41M8V,
+              src: image18FHcGthkeQ2Fn,
               fullWidth: 150,
               fullHeight: 150,
               aspectRatio: 1
@@ -474,7 +474,7 @@ function PlasmicCollapsibleSection__RenderFunc(props: {
                 sty.text___6UTtv
               )}
             >
-              {"NCEES"}
+              {"NC ELI"}
             </div>
           </p.Stack>
           <Icon13Icon

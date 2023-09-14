@@ -603,24 +603,25 @@
   flex-shrink: 0;
   border-radius: 6px;
 }
-.img__tLwCe {
+.img___9YsuD {
   position: relative;
   object-fit: cover;
   max-width: 100%;
   width: 60px;
   height: 60px;
   display: block !important;
-  object-position: center center;
+  object-position: 50% 50%;
+  flex-basis: auto;
   flex-shrink: 0;
   border: 1px solid #dddddd;
 }
-.img__tLwCe > picture > img {
+.img___9YsuD > picture > img {
   object-fit: cover;
-  object-position: center center;
+  object-position: 50% 50%;
 }
-.img__tLwCe > :global(.__wab_img-spacer) > img {
+.img___9YsuD > :global(.__wab_img-spacer) > img {
   object-fit: cover;
-  object-position: center center;
+  object-position: 50% 50%;
 }
 .frame3008 {
   width: auto;

@@ -52,9 +52,10 @@ import image42SoD5TVyCYpr from "./images/image42.svg"; // plasmic-import: soD5tV
 import image18FHcGthkeQ2Fn from "./images/image18.svg"; // plasmic-import: FHcGthkeQ2FN/picture
 import image20VcUxcF3Aumn from "./images/image20.svg"; // plasmic-import: Vc-UxcF3AUMN/picture
 import image21UnZuVc9Rc3Rc from "./images/image21.svg"; // plasmic-import: UnZuVC9Rc3Rc/picture
-import image22Cvgh0HyIvFdP from "./images/image22.svg"; // plasmic-import: cvgh0HYIvFdP/picture
+import image40CgcXDdy47HR from "./images/image40.svg"; // plasmic-import: CGC_XDdy47hR/picture
 import image19RcckWzOimSr0 from "./images/image19.svg"; // plasmic-import: RCCKWzOimSR0/picture
 import image25A9WgndXoFv7 from "./images/image25.svg"; // plasmic-import: A_9WGNDXoFV7/picture
+import image22Cvgh0HyIvFdP from "./images/image22.svg"; // plasmic-import: cvgh0HYIvFdP/picture
 import image29Sn7WGwiZjpRz from "./images/image29.svg"; // plasmic-import: Sn7wGwiZjpRZ/picture
 import image30QvrQx5L41M8V from "./images/image30.svg"; // plasmic-import: QVRQx5l41m8V/picture
 
@@ -437,7 +438,7 @@ function PlasmicHomepage__RenderFunc(props: {
                   >
                     <p.PlasmicImg
                       alt={""}
-                      className={classNames(sty.img__tLwCe)}
+                      className={classNames(sty.img___9YsuD)}
                       displayHeight={"60px"}
                       displayMaxHeight={"none"}
                       displayMaxWidth={"100%"}
@@ -446,10 +447,10 @@ function PlasmicHomepage__RenderFunc(props: {
                       displayWidth={"60px"}
                       loading={"lazy"}
                       src={{
-                        src: image22Cvgh0HyIvFdP,
-                        fullWidth: 150,
+                        src: image40CgcXDdy47HR,
+                        fullWidth: 152,
                         fullHeight: 150,
-                        aspectRatio: 1
+                        aspectRatio: 1.016393
                       }}
                     />
 
@@ -467,7 +468,7 @@ function PlasmicHomepage__RenderFunc(props: {
                           sty.text___1UOkZ
                         )}
                       >
-                        {"Canvas"}
+                        {"EVAAS"}
                       </div>
                     </p.Stack>
                     <Icon13Icon
