@@ -132,16 +132,7 @@ function PlasmicTextInput__RenderFunc(props: {
 }) {
   const { variants, overrides, forNode } = props;
 
-  const args = React.useMemo(
-    () =>
-      Object.assign(
-        {
-          placeholder: "Enter something…"
-        },
-        props.args
-      ),
-    [props.args]
-  );
+  const args = React.useMemo(() => Object.assign({}, props.args), [props.args]);
 
   const $props = {
     ...args,
