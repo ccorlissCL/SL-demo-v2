@@ -87,6 +87,8 @@ export interface DefaultCollapsibleSectionProps {
   className?: string;
 }
 
+const $$ = {};
+
 function PlasmicCollapsibleSection__RenderFunc(props: {
   variants: PlasmicCollapsibleSection__VariantsArgs;
   args: PlasmicCollapsibleSection__ArgsType;
@@ -550,7 +552,7 @@ const PlasmicDescendants = {
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
 type DescendantsType<T extends NodeNameType> =
-  typeof PlasmicDescendants[T][number];
+  (typeof PlasmicDescendants)[T][number];
 type NodeDefaultElementType = {
   section: "div";
   curriculumPlanningHeader4: "div";

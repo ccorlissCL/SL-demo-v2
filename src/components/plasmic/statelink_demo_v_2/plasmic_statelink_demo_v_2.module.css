@@ -142,6 +142,20 @@
 .plasmic_mixins {
   --mixin-IN9EYmynE2LG_box-shadow: inset 0px 0px 0px 1px rgba(221, 221, 221, 1);
   --plasmic-mixin-app-tile_box-shadow: var(--mixin-IN9EYmynE2LG_box-shadow);
+  --mixin-IN9EYmynE2LG_white-space: pre-wrap;
+  --plasmic-mixin-app-tile_white-space: var(--mixin-IN9EYmynE2LG_white-space);
+  --mixin-FiUCow1YvULS_white-space: pre-wrap;
+  --plasmic-mixin-unnamed-style-preset_white-space: var(
+    --mixin-FiUCow1YvULS_white-space
+  );
+  --mixin-IiGjjW-eJ0LD_white-space: pre-wrap;
+  --plasmic-mixin-unnamed-style-preset-2_white-space: var(
+    --mixin-IiGjjW-eJ0LD_white-space
+  );
+  --mixin-AJAl2mbDRaeu_white-space: pre-wrap;
+  --plasmic-mixin-app-tile-inner-container_white-space: var(
+    --mixin-AJAl2mbDRaeu_white-space
+  );
 }
 
 :where(.all) {

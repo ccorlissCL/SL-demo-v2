@@ -40,7 +40,8 @@
           "componentImportPath": "@plasmicpkgs/plasmic-nav"
         }
       ],
-      "jsBundleThemes": []
+      "splitsProviderFilePath": "",
+      "customFunctions": []
     },
     {
       "projectId": "aidk5hCMmGyuB8c7wzcfxE",
@@ -534,6 +535,11 @@
           "id": "fq71h_qWldni",
           "name": "image 43",
           "filePath": "plasmic/statelink_demo_v_2/images/image43.svg"
+        },
+        {
+          "id": "HlLJSL5YZFRB",
+          "name": "image 44",
+          "filePath": "plasmic/statelink_demo_v_2/images/image44.svg"
         }
       ],
       "indirect": false,
@@ -551,7 +557,9 @@
           "displayName": "plasmic-data-source-fetcher",
           "componentImportPath": "@plasmicapp/react-web/lib/data-sources"
         }
-      ]
+      ],
+      "splitsProviderFilePath": "",
+      "customFunctions": []
     },
     {
       "projectId": "58GpZjZCWTaJ8AUhpCwt2K",
@@ -572,7 +580,8 @@
           "componentImportPath": "@plasmicpkgs/react-awesome-reveal"
         }
       ],
-      "jsBundleThemes": []
+      "splitsProviderFilePath": "",
+      "customFunctions": []
     }
   ],
   "globalVariants": {
@@ -586,6 +595,6 @@
     ]
   },
   "wrapPagesWithGlobalContexts": true,
-  "cliVersion": "0.1.308",
-  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.308/dist/plasmic.schema.json"
+  "cliVersion": "0.1.318",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.318/dist/plasmic.schema.json"
 }

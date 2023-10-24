@@ -61,6 +61,8 @@ export interface DefaultAppTileProps {
   className?: string;
 }
 
+const $$ = {};
+
 function PlasmicAppTile__RenderFunc(props: {
   variants: PlasmicAppTile__VariantsArgs;
   args: PlasmicAppTile__ArgsType;
@@ -154,7 +156,7 @@ const PlasmicDescendants = {
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
 type DescendantsType<T extends NodeNameType> =
-  typeof PlasmicDescendants[T][number];
+  (typeof PlasmicDescendants)[T][number];
 type NodeDefaultElementType = {
   appTile2: "div";
   img: typeof p.PlasmicImg;

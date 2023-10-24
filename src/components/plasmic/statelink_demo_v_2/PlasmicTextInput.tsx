@@ -124,6 +124,8 @@ export interface DefaultTextInputProps extends pp.BaseTextInputProps {
   color?: SingleChoiceArg<"dark">;
 }
 
+const $$ = {};
+
 function PlasmicTextInput__RenderFunc(props: {
   variants: PlasmicTextInput__VariantsArgs;
   args: PlasmicTextInput__ArgsType;
@@ -378,7 +380,7 @@ const PlasmicDescendants = {
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
 type DescendantsType<T extends NodeNameType> =
-  typeof PlasmicDescendants[T][number];
+  (typeof PlasmicDescendants)[T][number];
 type NodeDefaultElementType = {
   root: "div";
   startIconContainer: "div";

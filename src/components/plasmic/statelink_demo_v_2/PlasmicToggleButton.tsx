@@ -65,6 +65,8 @@ export interface DefaultToggleButtonProps {
   className?: string;
 }
 
+const $$ = {};
+
 function PlasmicToggleButton__RenderFunc(props: {
   variants: PlasmicToggleButton__VariantsArgs;
   args: PlasmicToggleButton__ArgsType;
@@ -127,6 +129,7 @@ function PlasmicToggleButton__RenderFunc(props: {
       )}
       onClick={async event => {
         const $steps = {};
+
         $steps["updatePosition2"] = true
           ? (() => {
               const actionArgs = {
@@ -151,6 +154,7 @@ function PlasmicToggleButton__RenderFunc(props: {
         ) {
           $steps["updatePosition2"] = await $steps["updatePosition2"];
         }
+
         $steps["updateStateVariable"] = true
           ? (() => {
               const actionArgs = {};
@@ -221,7 +225,7 @@ const PlasmicDescendants = {
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
 type DescendantsType<T extends NodeNameType> =
-  typeof PlasmicDescendants[T][number];
+  (typeof PlasmicDescendants)[T][number];
 type NodeDefaultElementType = {
   toggleButton: "div";
   freeBox: "div";

@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@plasmicapp/cli": "^0.1.308",
-    "@plasmicapp/react-web": "^0.2.250",
+    "@plasmicapp/cli": "^0.1.318",
+    "@plasmicapp/react-web": "^0.2.280",
     "@plasmicpkgs/plasmic-nav": "^0.0.132",
     "@plasmicpkgs/react-awesome-reveal": "^3.8.162",
     "@testing-library/jest-dom": "^5.17.0",

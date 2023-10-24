@@ -133,6 +133,8 @@ export interface DefaultNavProps {
   className?: string;
 }
 
+const $$ = {};
+
 function PlasmicNav__RenderFunc(props: {
   variants: PlasmicNav__VariantsArgs;
   args: PlasmicNav__ArgsType;
@@ -200,6 +202,7 @@ function PlasmicNav__RenderFunc(props: {
         })}
         onClick={async event => {
           const $steps = {};
+
           $steps["updateCollapsed"] = true
             ? (() => {
                 const actionArgs = {
@@ -1128,7 +1131,7 @@ const PlasmicDescendants = {
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
 type DescendantsType<T extends NodeNameType> =
-  typeof PlasmicDescendants[T][number];
+  (typeof PlasmicDescendants)[T][number];
 type NodeDefaultElementType = {
   root: "div";
   caretLeft: "div";

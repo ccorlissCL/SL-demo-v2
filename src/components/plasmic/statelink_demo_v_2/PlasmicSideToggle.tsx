@@ -66,6 +66,8 @@ export interface DefaultSideToggleProps {
   className?: string;
 }
 
+const $$ = {};
+
 function PlasmicSideToggle__RenderFunc(props: {
   variants: PlasmicSideToggle__VariantsArgs;
   args: PlasmicSideToggle__ArgsType;
@@ -162,7 +164,7 @@ const PlasmicDescendants = {
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
 type DescendantsType<T extends NodeNameType> =
-  typeof PlasmicDescendants[T][number];
+  (typeof PlasmicDescendants)[T][number];
 type NodeDefaultElementType = {
   sideNavToggle: "div";
   caretLeft: "div";

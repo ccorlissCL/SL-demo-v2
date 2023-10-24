@@ -115,6 +115,8 @@ export interface DefaultHomepageProps {
   className?: string;
 }
 
+const $$ = {};
+
 function PlasmicHomepage__RenderFunc(props: {
   variants: PlasmicHomepage__VariantsArgs;
   args: PlasmicHomepage__ArgsType;
@@ -635,6 +637,7 @@ function PlasmicHomepage__RenderFunc(props: {
                   href={"http://classlink.instructure.com/login/saml"}
                   onClick={async event => {
                     const $steps = {};
+
                     $steps["goToHttpclasslinkinstructurecomloginsaml"] = true
                       ? (() => {
                           const actionArgs = {
@@ -642,7 +645,16 @@ function PlasmicHomepage__RenderFunc(props: {
                               "http://classlink.instructure.com/login/saml"
                           };
                           return (({ destination }) => {
-                            location.assign(destination);
+                            if (
+                              typeof destination === "string" &&
+                              destination.startsWith("#")
+                            ) {
+                              document
+                                .getElementById(destination.substr(1))
+                                .scrollIntoView({ behavior: "smooth" });
+                            } else {
+                              location.assign(destination);
+                            }
                           })?.apply(null, [actionArgs]);
                         })()
                       : undefined;
@@ -1057,7 +1069,7 @@ const PlasmicDescendants = {
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
 type DescendantsType<T extends NodeNameType> =
-  typeof PlasmicDescendants[T][number];
+  (typeof PlasmicDescendants)[T][number];
 type NodeDefaultElementType = {
   collapsed: "div";
   sideNav: typeof Nav;
